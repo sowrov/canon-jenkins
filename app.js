@@ -1,17 +1,9 @@
-/**
- * Canon for Jenkins Javascript Overrides
- *
- * Leverages Jenkins-included Prototype.js
- *
- * @author Rackspace Web Team
- */
-document.observe("dom:loaded", function () {
-    // Auto Refresh
-    var autoRefreshSelector = $$('#right-top-nav #right-top-nav div.smallfont');
-    if (autoRefreshSelector.length > 0) {
-        var autoRefreshLink = new Element('span').update(autoRefreshSelector[0].innerHTML);
-        $$('span.jenkins_ver')[0].insert({before:autoRefreshLink});
-    }
-    // Click logo, go home.
-    $$('div.logo')[0].on('click', function(){ location = '/'; });
+document.observe("dom:loaded",function(){
+    $("l10n-footer").update($("right-top-nav").innerHTML),$("right-top-nav").update($("login-field").innerHTML);
+    var a=new Element("div",{id:"search-wrap",style:"display: inline-block;"}),b=$("right-top-nav"),c=b.childNodes[0];
+    c.childNodes[1].insert({before:a}),$("search-wrap").update($$("#top-panel table td:nth-child(2)")[0].innerHTML);
+    var d=$$("body table");
+    d[d.length-1].toggleClassName("footer-table");
+    $("main-table").wrap("div",{id:"main-table-wrap"});
+    $("main-table").style=null,$("top-panel").remove();
 });
