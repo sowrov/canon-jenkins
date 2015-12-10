@@ -14,7 +14,8 @@ body {
 .logo {
     width: 154px !important;
     height: 34px !important;
-    background: url('logo-rackspace.png') no-repeat;
+    background-color: darkgoldenrod;
+    /*background: url('logo-rackspace.png') no-repeat;*/
     margin-top: 8px;
     cursor: pointer;
 }
