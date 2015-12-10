@@ -6,6 +6,10 @@ body {
     line-height:19px
 }
 
+.warning {
+    color: #FF0088;
+}
+
 th {
 	color:#262626!important
 }
@@ -63,7 +67,7 @@ a.model-link.inside{padding:0 20px 0 0!important}
 #buildQueue{background:none repeat scroll 0 0 #FFF!important;box-shadow:0 3px 8px 1px #A1A1A1!important;margin-bottom:8px}
 #executors{background:none repeat scroll 0 0 #FFF;box-shadow:0 3px 8px 1px #A1A1A1;margin-bottom:8px}
 #main-panel {
-	background:none repeat scroll 0 0 #AAA;
+	background:none repeat scroll 0 0 #FFF;
 	box-shadow:0 3px 8px 1px #A1A1A1;padding:3px 8px 5px 12px
 }
 #management-links{padding:0 5px!important}
