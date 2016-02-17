@@ -44,7 +44,7 @@ div.section-header {
 }
 
 pre.console-output{
-    background-color: black;
+    background-color: black!important;
     color: #00CD00; /*light green*/
 }
 
