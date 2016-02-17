@@ -43,9 +43,9 @@ div.section-header {
     border: 1px solid #5788A1;
 }
 
-.console-output{
+pre.console-output{
     background-color: black;
-    color: #00CD00; //light green
+    color: #00CD00; /*light green*/
 }
 
 #main-table-wrap {
