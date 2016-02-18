@@ -1,5 +1,5 @@
 document.observe("dom:loaded",function(){
-    $("footer").setStyle({
+    $$("footer")[0].setStyle({
          visibility: 'hidden',
          opacity: 0.0
     });
