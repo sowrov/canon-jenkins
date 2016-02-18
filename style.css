@@ -25,7 +25,7 @@ div.section-header {
 	margin-top:0!important
 }
 
-footer {
+footer footer.div {
     -moz-animation: cssAnimation 0s ease-in 5s forwards;
     /* Firefox */
     -webkit-animation: cssAnimation 0s ease-in 5s forwards;
