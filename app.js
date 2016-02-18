@@ -1,3 +1,5 @@
 document.observe("dom:loaded",function(){
-    $("footer").css( "visibility", "hidden" );
+    $("footer").setStyle({
+         visibility: hidden
+    });
 });
